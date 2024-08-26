@@ -15,7 +15,7 @@ class KategoriService {
         throw Exception('Failed to load kategori');
       }
     } catch (e) {
-      print('Error: $e');
+      print('Error: $e');  
       return null;
     }
   }
